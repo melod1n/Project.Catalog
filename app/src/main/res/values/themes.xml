@@ -28,4 +28,26 @@
         <item name="itemTextColor">@drawable/bottom_bar_item_color</item>
         <item name="itemIconTint">@drawable/bottom_bar_item_color</item>
     </style>
+
+    <style name="AppFullScreenDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="actionMenuTextColor">@color/accent</item>
+
+        <item name="toolbarStyle">@style/AppToolbar</item>
+    </style>
+
+    <style name="AppFullScreenDialog.Animations">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <style name="CircleImagesShapeAppearance">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">40dp</item>
+    </style>
+
 </resources>

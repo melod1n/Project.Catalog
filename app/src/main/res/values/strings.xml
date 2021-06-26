@@ -6,5 +6,8 @@
     <string name="title_catalog">Catalog</string>
     <string name="title_news">News</string>
     <string name="title_profile">Profile</string>
+    <string name="action_search">Search</string>
+    <string name="cancel">Cancel</string>
+    <string name="search_hint">Search by title or category</string>
 
 </resources>
